@@ -95,7 +95,7 @@ h5{
 
 #txt-aluno{
     margin-top: -20%;
-    margin-left: 45%;
+    margin-left: 13.5%;
     font-size: 25px;
     font-style: italic;
     position: absolute;
@@ -112,6 +112,7 @@ h5{
     font-size: 16px;
     margin-left: 15%;
     font-style: italic;
+    margin-top: -18%;
 }
 
 #txt-depoimento2{
@@ -130,4 +131,20 @@ h5{
     color: #24da4a;
     font-family: Arial, Helvetica, sans-serif, Times, serif;
     font-style: italic;
+}
+
+#txt-inicio{
+    color: #05fc3a;
+    font-size: 85px;
+    margin-top: -35%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+#p-inicio{
+    margin-top: -30%;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
 }
