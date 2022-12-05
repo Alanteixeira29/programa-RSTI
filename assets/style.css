@@ -4,6 +4,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 12px;           /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #2b2b2b;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #434343;    /* cor da scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #434343;  /* creates padding around scroll thumb */
+  }
+
 a{
     text-decoration: none;
     color: white;
@@ -30,13 +44,29 @@ h5{
     font-size: 20px;
 }
 
+footer{
+    background: linear-gradient(to right, #2b2b2b, #626262);
+    height: 150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #sobre{
     color: #24da4a;
-    text-decoration: underline;
+}
+
+#home{
+    color: #24da4a;
 }
 
 #sobre:hover{
     color: white;
+    cursor: default;
+}
+
+#home:hover{
+    color: white;
+    cursor: default;
 }
 
 #nav{
@@ -54,7 +84,7 @@ h5{
 
 #img-conteudo{
     height: 859px;
-    width: 1903px;
+    width: 1908px;
 }
 
 #depoimentos{
